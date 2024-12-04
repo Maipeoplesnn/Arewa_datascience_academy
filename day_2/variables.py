@@ -95,7 +95,7 @@ radius = 30
 _circum_of_circle_ = 2 * 3.14 * radius
 
     #3. Take radius as user input and calculate the area.
-radius = input ("input radius here: ")
+radius = float(input ("input radius here: "))
 _area_of_circle_ = 3.14 * radius ** 2
 
 # 1. Use the built-in input function to get first name, last name, country and age from a user and store the value to their corresponding variable names
